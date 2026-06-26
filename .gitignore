@@ -1,0 +1,42 @@
+# Python
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/.ruff_cache/
+
+# Node
+**/node_modules/
+**/dist/
+
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# Data, databases, backups, productions, uploads (NEVER commit)
+**/data/
+backend/data/
+backend/projects/
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite*
+
+# Media
+*.mov
+*.mp4
+
+# Local session / agent state
+memory/
+.claude/
+*.jsonl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
